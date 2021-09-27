@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+   
+}
+*::selection{
+    background: var(--orange);
+    color: #fff;
+}
+.h1text::selection{
+    background-color: orange;
+}
+#package{
+    text-align: center;
+    
+    
+}
+.nav-link{
+    color: orange;
+}
+.h1text{
+
+    text-align: center;
+    color: orange;
+    padding: 1% ;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+   
+}
+.carousel-caption{
+   
+    height: 65%;
+    min-height: 200px;
+}
+.card{
+    padding: 2%;
+}
+
+
+
+/* region */
+#region{
+    padding: 2% 3%;
+    text-align: center;
+   
+}
+
+
+
+
+/* gallery */
+#gallery{
+    padding: 2% 3%;
+    text-align: center;
+}
+
+.gal{
+    
+    padding: 5% 5% ;
+    width: 250px;
+    height: 250px;
+    border: black;
+    border-radius: 100%;
+}
+h5{
+    color: orange;
+}
+
+
+
+ /* Contact me  */
+ #contact{
+     background-color: black;
+     height: 50%;
+     text-align: center;
+ }
+ .cont{
+     color: white;
+ }
